@@ -1,0 +1,15 @@
+apply plugin: 'groovy'
+apply from: rootProject.file('gradle/code-coverage.gradle')
+
+dependencies {
+    compile project(':griffon-db4o-core')
+    compile "org.codehaus.griffon:griffon-groovy-compile:${griffonVersion}"
+    compileOnly 'com.db4o:db4o-core-java5:8.0.184.15484'
+
+    testCompileOnly "org.codehaus.griffon:griffon-groovy-compile:${griffonVersion}"
+    testCompile 'com.db4o:db4o-core-java5:8.0.184.15484'
+    testRuntime "org.codehaus.griffon:griffon-guice:${griffonVersion}"
+    testRuntime "org.slf4j:slf4j-simple:1.7.12"
+}
+
+compileGroovy.enabled = false

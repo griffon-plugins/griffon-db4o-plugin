@@ -1,0 +1,9 @@
+
+[[_introduction]]
+= Introduction
+
+The link:https://en.wikipedia.org/wiki/Db4o[Db4o, window="_blank"] plugin enables lightweight access to Db4o datasources.
+This plugin does NOT provide domain classes nor dynamic finders like GORM does.
+
+Griffon version: {griffon-version}
+

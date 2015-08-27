@@ -1,0 +1,11 @@
+
+:link_db4o: link:https://en.wikipedia.org/wiki/Db4o[Db4o, window="_blank"]
+:link_object_container: com.db4o.ObjectContainer
+:api_object_container_handler: link:api/griffon/plugins/db4o/ObjectContainerHandler.html[ObjectContainerHandler, window="_blank"]
+:api_object_container_callback: link:api/griffon/plugins/db4o/ObjectContainerCallback.html[ObjectContainerCallback, window="_blank"]
+:api_db4o_aware: link:api/griffon/transform/Db4oAware.html[@Db4oAware, window="_blank"]
+:api_db4o_bootstrap: link:api/griffon/plugins/db4o/Db4oBootstrap.html[Db4oBootstrap, window="_blank"]
+
+:path_griffon_db4o_core: {rootdir}/subprojects/griffon-db4o-core
+:path_griffon_db4o_groovy_compile: {rootdir}/subprojects/griffon-db4o-groovy-compile
+
