@@ -1,0 +1,4 @@
+griffon.plugins.db4o
+griffon.transform
+org.codehaus.griffon.runtime.db4o
+org.codehaus.griffon.runtime.jmx
